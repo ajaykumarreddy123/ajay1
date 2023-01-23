@@ -1,0 +1,23 @@
+
+git log
+git log --oneline
+git log -n
+git log --oneline -n
+git log --author=jaswant
+git log --author=jaswant -n
+git log --author=jaswant --oneline
+git log --author=jaswant --oneline -n
+git log --since=yy-mm-dd
+or
+git log --after=yy-mm-dd
+git log --until=yy-mm-dd
+or
+git log --before=yy-mm-dd
+git log --since=yy-mm-dd --until=yy-mm-dd
+or
+git log --after=yy-mm-dd --before=yy-mm-dd
+git log --after=2020-09-03 --before=2020-09-05
+git log --after="2020-09-03 18:30" --before="2020-09-03 19:30"
+git log -- file.name
+git log --grep="label"
+BRANCH
