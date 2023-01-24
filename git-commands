@@ -21,28 +21,3 @@ git log --after="2020-09-03 18:30" --before="2020-09-03 19:30"
 git log -- file.name
 git log --grep="label"
 BRANCH
-TOUCH, CAT, VI
------------------------
-touch file1
-ls
-touch f2 f3 f4
-to crate a file and put content
-cat > file2
-……………..
-ctrl+d
-ls
-cat file2
-add some data cat >> file2
-...
-ctrl+d
-VI file-name
-----------------
-esc i
-.............
-esc :w!
-esc :q!
-or
-esc :wq!  			{!  force}
-git cherry-pick cid (single commit )
-TAG's
-:
