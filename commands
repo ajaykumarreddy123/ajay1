@@ -1,0 +1,9 @@
+Author name configure: every time you install git 1st do this steps
+Git status: when you hit git status it not work because 1st you initialize git then it work
+Git repository initialize in respective path: git init	(the respective path one “.file” created if not (in file folder click view option click hidden items) automatically in that file all configuration details will be initialize. If you delete git path file again you initialize
+git status	
+user name or author , email, {only one time to configure} 
+git config --global user.name "ajay"
+git config --global user.email "ajaykumarreddy77@gmail.com"
+existing configuration to list: git config –list
+
