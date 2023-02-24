@@ -1,0 +1,45 @@
+TOUCH, CAT, VI
+-----------------------
+touch file1
+ls
+touch f2 f3 f4
+to crate a file and put content
+cat > file2
+……………..
+ctrl+d      save 
+ls
+cat file2
+add some data cat >> file2
+...
+ctrl+d 		save
+VI file-name
+----------------
+esc i
+.............
+esc :w! 		save
+esc :q!		quit or close
+or
+esc :wq!  			{!  force}
+git cherry-pick cid (single commit )
+TAG's
+--------
+git tag
+git tag tag-name
+git tag tag-name cid
+git show tag-name
+git checkout tag-name
+git log
+ls
+git tag -d tag-name
+git push origin tag-name
+git push origin -d tag-name
+STASH
+---------
+git stash list
+git stash save "label"
+git stash show stash@{x}
+git stash show -p stash@{x}
+POP, APPLY, DROP
+---------------------------
+POP (cut)
+
