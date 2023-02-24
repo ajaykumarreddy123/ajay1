@@ -21,6 +21,7 @@ esc :q!		quit or close
 or
 esc :wq!  			{!  force}
 git cherry-pick cid (single commit )
+not discuss till yet
 TAG's
 --------
 git tag
