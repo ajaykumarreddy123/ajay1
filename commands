@@ -1,3 +1,6 @@
+linux commands:"ajay"
+linux commands:"ajaykumar reddy"
+
 TOUCH, CAT, VI
 -----------------------
 touch file1
@@ -21,6 +24,7 @@ esc :q!		quit or close
 or
 esc :wq!  			{!  force}
 git cherry-pick cid (single commit )
+not discuss till yet
 TAG's
 --------
 git tag
